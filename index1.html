@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notions acquises en HTML</title>
+</head>
+<body>
+    <h2>Destination le Maroc et ses belles villes !!</h2>
+    <p>Alors que retenir de notre escapade il y'a deux semaines, à <a href="https://fr.wikipedia.org/wiki/Marrakech"> Marrakech</a>, <a href="https://fr.wikipedia.org/wiki/Agadir">Agadir</a>, <a href="https://fr.wikipedia.org/wiki/Tanger">Tanger</a> et <a href="https://fr.wikipedia.org/wiki/Chefchaouen">Chefchaouen</a>. Ce fut un séjour court, mais enrichissant.
+<p>Voyez donc par vous même.</p>
+<h3><u> Photos Vacances 2022</u></h3>
+<p><img src="marrakech.jpg" alt="Place dja el fna" width="400" title="Place dja el fna">
+<img src="vacances/Marrakech_Souk.jpg" alt="Souk Marrakech" width="400" title="Souk de Marrakech">
+<img src="vacances/vacances_agadir/agadir.jpg" alt="Hotel avec piscine à Agadir" width="400" title="Hotel avec piscine Agadir"></p>
+
+<p>Nous y avons rencontré plein de belles personnes, avec qui nous avons écouté, chanter et danser de la musique locale.
+<br>Mes préférées de toutes ces chansons, ce sont ces deux-là, ils sont de l'artiste talentueux originaire du Burkina Faso, <strong>Braham Boss</strong>. <br>
+<br><audio controls="controls">
+    <source src="tout bainzé.mp3">
+    </audio>
+    <audio controls="controls">
+        <source src="oh la la.mp3">
+    </audio>
+    </p>
+<p><h3>On en parle des activités effectuées ?</h3></p>
+<p>Faut savoir qu'au Maroc on ne s'ennuie pas du tout (<i>surtout en été</i>). <br> Vous avez le choix entre:
+    <br>
+    <ul>
+        <li>Le quad</li>
+        <li>Les balades en dromadaire</li>
+        <li>Les parcs aquatiques</li>
+        <li>les randonnées</li>
+    </ul>
+</p>
+<p>Mes préférées par contre sont:
+    <ol>
+        <li>Le quad</li>
+        <li>Les randonnées</li>
+        <li>Les courses de voitures</li>
+        <li>Les campements dans le désert</li>
+    </ol>
+</p>
+<p>Nous organiserons prochainement de nouvelles escapades groupées, si ça vous dit de nous rejoindre et
+    faire cette aventure ensemble, il vous suffit de remplir ce petit formulaire afin d'être rappeler très vite. <br>
+
+    <form method="post" action="données.php">
+        <!-- données.php représente la page vers laquelle les données collectées seront enrégistrées. Elle 
+        sera créée sous php. -->
+        <label for="Nom">Nom:</label>
+        <input type="text" id="Nom" name="Nom"><br>
+
+        <label for="Prénom">Prénom:</label>
+        <input type="text" id="Prénom" name="Prénom"><br>
+
+        <label for="Naissance">Date de naissance:</label>
+        <input type="date" id="Naissance" name="Naissance"><br>
+
+        <label for="Telephone">Téléphone:</label>
+        <input type="text" id="Telephone" name="Telephone"><br>
+
+        <label for="Genre">Sexe:</label>
+        <input type="radio" name="Genre" value="Homme">Homme
+        <input type="radio" name="Genre" value="Femme">Femme
+        <input type="radio" name="Genre" value="Autre">Autre
+        <br>
+
+        <label for="resident">Résidez-vous au Maroc?</label>
+        <select name="resident" id="resident">
+            <option value="">O/N</option>
+            <option value="Oui">Oui</option>
+            <option value="Non">Non</option>
+        </select><br>
+
+    
+        <input type="submit" value="Envoyer">
+    </form>
+</p>
+<p><strong>Se connecter</strong></p>
+    <p><label for="username">Nom d'utilisateur:</label>
+    <input type="text" id="username" name="username"></p>
+    <p><label for="pass">Mot de passe:</label>
+    <input type="password" name="pass" id="pass" minlength="8" maxlength="16"></p>
+    <p><label for="submit"></label>
+    <input type="submit"></p>
+
+<h3>Next trip expectations</h3>
+<table>
+   <tr><th>Morocco Hiver 2022</th></tr>
+    <tr>
+    <th>Villes</th>
+    <th>Activités</th>
+    <th>Date prévu</th>
+    <th>Hébergement</th>
+    </tr>
+    <tr>
+        <td>Tetouan</td>
+        <td>Quad</td>
+        <td>Novembre 2022</td>
+        <td>Pris en charge</td>
+    </tr>
+    <tr>
+        <td>Essaouira</td>
+        <td>Randonnées</td>
+        <td>Novembre 2022</td>
+        <td>Par le client</td>
+    </tr>
+    <tr>
+        <td>Ifrane</td>
+        <td>Ski</td>
+        <td>Décembre 2022</td>
+        <td>Pris en charge</td>
+    </tr>
+
+
+</table>
+<h2>A très bientôt !!!</h2>
+<br>
+<video controls="controls" width="400">
+<source src="video drole.mp4">
+</video>
+
+
+
+
+</body>
+</html>
